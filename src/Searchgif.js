@@ -2,6 +2,7 @@ import React from 'react';
 
 class Searchgif extends React.Component{
     constructor(props){
+        super(props)
 
     }
 
@@ -10,9 +11,10 @@ class Searchgif extends React.Component{
     render(){
         return(
             <div>
-                <h1>Hello World
-                
-                </h1>
+                <h1>Search for Gifs!</h1>
+                <label>Input to search:</label>
+                <input></input>
+                <button>Submit</button>
             </div>
         )
     }
