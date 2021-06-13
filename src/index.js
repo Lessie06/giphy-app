@@ -3,12 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import Searchgif from './Searchgif';
+
+import TrendingSearch from './Trending';
+import RandomSearch from './RandomSearch';
+import Random from './Random'
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     
     <Searchgif/>
+    
+    <RandomSearch />
+    <TrendingSearch/>
+    <Random/>
   </React.StrictMode>,
   document.getElementById('root')
 );
