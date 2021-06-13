@@ -11,8 +11,6 @@ class Searchgif extends React.Component{
         }
 
     }
-    
-    
 
     searchClick= (e) =>{
         e.preventDefault();
@@ -37,9 +35,7 @@ class Searchgif extends React.Component{
             // console.log("Hello World")
         })
         .catch(error=> console.log(error))
-
-        
-        
+  
     }
 
 
