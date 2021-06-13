@@ -44,6 +44,13 @@ class RandomSearch extends React.Component{
         
 
     render(){
+        let results = [];
+        if (this.state.loading == false) {
+            results = <Random gifLink={this.state.data.images.original.url} />;
+        } else {
+            results = null;
+        }
+
 
         
         return(
